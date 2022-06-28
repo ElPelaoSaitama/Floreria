@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'crispy_forms',
 ]
 
-CRISPY_TEMPLATE_PACK = 'boostrap4'
+
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
@@ -138,3 +138,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+CRISPY_TEMPLATE_PACK = 'boostrap4'
