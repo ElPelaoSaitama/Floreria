@@ -3,10 +3,10 @@ from .models import Marca,Producto, Contacto
 # Register your models here.
 
 class ProductosAdmin(admin.ModelAdmin):
-    list_display = ["nombre", "precio","nuevo","marca"]
+    list_display = ["nombre", "precio","disponible","marca"]
     list_editable = ["precio"]
     search_fields = ["nombre"]
-    list_filter = ["marca","nuevo"]
+    list_filter = ["marca","disponible"]
     list_per_page = 25
 
 
